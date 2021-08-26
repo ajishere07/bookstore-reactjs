@@ -1,0 +1,130 @@
+.cartBookContainer{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;   
+    /* margin: 5px; */
+    position: relative;
+}
+.cartBookContainer img{
+    width: 156px;
+    height: 195px; 
+}
+.cartBookContainer__bookData{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.cartBookContainer__buttons{
+    position: absolute;
+    right: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    width: 10%;
+    height: 100%;
+}
+.button__removeFromCart{
+    background-color: transparent;
+    width: 90px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    height: 30px;
+    font-size: .7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button__removeFromCart:hover{
+    background-color: #012443;
+    border:2px solid #012443;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    height: 30px;
+    font-size: .7rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+@media only screen and (max-width: 1230px){
+    .cartBookContainer img{
+        width: 111px;
+        height: 150px; 
+    }
+}
+@media only screen and (max-width: 830px){
+    .cartBookContainer img{
+        width: 91px;
+        height: 130px; 
+    }
+    .button__removeFromCart{
+        background-color: transparent;
+        width: 40px;
+        color: black;
+        border: none;
+        border-radius: 30px;
+        font-weight: 700;
+        height: 30px;
+        font-size: .7rem;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .cartBookContainer__buttons{
+        position: absolute;
+        right: 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+        /* border: 1px solid blue; */
+        width: 20%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .cartBookContainer img{
+        width: 91px;
+        height: 110px; 
+    }
+}
+@media only screen and (max-width: 281px){
+    .cartBookContainer img{
+        width: 61px;
+        height: 90px; 
+    }
+    .cartBookContainer__bookData{
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    .button__removeFromCart{
+        background-color: transparent;
+        width: 40px;
+        color: black;
+        border: none;
+        border-radius: 30px;
+        font-weight: 700;
+        height: 30px;
+        font-size: .5rem;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .button__removeFromCart:hover{
+        background-color: #012443;
+        border:2px solid #012443;
+        color: white;
+        border-radius: 20px;
+        font-weight: 700;
+        height: 30px;
+        font-size: .5rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s;
+    }
+}

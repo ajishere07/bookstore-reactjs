@@ -1,0 +1,175 @@
+.bookContainer{
+    position: relative;
+    margin: 20px 20px;
+    display: flex;
+    /* align-items: flex-start; */
+    background-color: white;
+    border: 0.6px solid rgb(192, 177, 177);
+    border-radius: 6px;
+}
+.bookContainer:hover{
+    margin: 20px 20px;
+    display: flex;
+    /* align-items: flex-start; */
+    background-color: white; 
+    box-shadow: 0 2px 3px 0 #012443, 0 2px 7px 0 #012443;
+    transition: 0.3s
+}
+.bookContainer img{
+    width: 86px;
+    height: 115px; 
+}
+.bookContainer__bookData{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.bookContainer__buttons{
+    position: absolute;
+    right: 40px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    width: 10%;
+    height: 100%;
+}
+
+.buttons{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    height: 30px;
+    font-size: .7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: #012443;
+    border:2px solid #012443;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    height: 30px;
+    font-size: .7rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+@media only screen and (max-width: 780px) {
+    
+    .bookContainer__buttons{
+        /* position: absolute;
+        right: 40px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        flex-direction: column; */
+        /* border: 1px solid blue; */
+        /* border: 2px solid blue; */
+        width: 12%;
+        /* height: 100%; */
+    }
+    .buttons{
+        
+        font-size: .7rem;
+        
+    }
+    .buttons:hover{
+        background-color: #012443;
+        border:2px solid #012443;
+        color: white;
+        border-radius: 20px;
+        font-weight: 700;
+        height: 30px;
+        font-size: .7rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .bookContainer__bookData{
+        font-size: 0.6rem;
+        margin-left: 3px;
+    }
+    
+    .bookContainer img{
+        width: 76px;
+        height: 90px; 
+    }
+    .bookContainer__buttons{
+        position: absolute;
+        right: 30px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* border: 1px solid blue; */
+        /* border: 2px solid blue; */
+        width: 20%;
+        height: 100%;
+    }
+    .buttons{
+        
+        font-size: .6rem;
+        
+    }
+    .buttons:hover{
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .bookContainer__bookData{
+        font-size: 0.6rem;
+        margin-left: 0px;
+        width: 40%;
+        
+    }
+    .bookContainer__buttons{
+        position: absolute;
+        right: 30px;
+        
+        
+        width: 20%;
+        height: 100%;
+    }
+    .buttons{
+        
+        font-size: .6rem;
+        
+    }
+    .buttons:hover{
+        
+        
+        font-size: .6rem;
+        
+    }
+}
+
+@media only screen and (max-width: 290px){
+    .bookContainer{
+        position: relative;
+        margin: 20px 2px;
+        display: flex;
+        /* align-items: flex-start; */
+        background-color: white;
+    }
+    .bookContainer:hover{
+        margin: 20px 2px;
+    }
+    .buttons{
+        
+        font-size: .6rem;
+        
+    }
+    .buttons:hover{
+        font-size: .6rem;
+    }
+}

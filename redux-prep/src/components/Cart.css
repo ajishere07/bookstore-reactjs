@@ -1,0 +1,127 @@
+.cartContainer{
+    /* width: 100%; */
+    /* padding: 20px; */
+    /* background-color: white; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height:100vh;
+    padding: 40px 100px;
+    /* box-shadow: 2px 2px 6px grey; */
+    /* border: 1px solid rebeccapurple; */
+}
+
+.cartContainer__leftSide{
+    background-color: white;
+    height: 100%;
+    flex: 3;
+    margin-right: 6px;
+    box-shadow: 2px 2px 6px grey;
+}
+
+.cartContainer__rightSide{
+    margin: 4px;
+    margin-top: 0.2px;
+    height: 100%;
+    margin-left: 6px;
+    /* border: 2px solid grey; */
+    /* background-color: white; */
+    flex: 1;
+}
+.leftSide__addBanner{
+    /* background-color: white; */
+    margin: 5px;
+    /* border: 1px solid brown; */
+    height: 200px;
+    
+}
+.leftSide__addBanner img{
+   object-fit: cover; 
+   width: 100%;
+}
+.leftSide__cartItems{
+    margin-top: 50px;
+    /* background-color: salmon; */
+    /* text-transform: uppercase; */
+    padding: 20px;
+}
+.leftSide__cartItems h1{
+    border-bottom: 1px solid gray;
+    text-transform: uppercase;
+   padding-left: 24px;
+   padding-bottom: 30px;
+}
+.leftSide__addBanner img{
+    mask-image: linear-gradient(to bottom , rgba(0,0,0,1), rgba(0,0,0,5)) ;
+    width: 100%;
+    height: 100%;  
+}
+
+@media only screen and (max-width: 1240px){
+    .leftSide__addBanner img{
+        object-fit: cover; 
+        width: 100%;
+     }
+}
+@media only screen and (max-width: 1030px){
+    .cartContainer{
+        /* width: 100%; */
+        /* padding: 20px; */
+        /* background-color: white; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height:100%;
+        padding: 20px 50px;
+        /* box-shadow: 2px 2px 6px grey; */
+        /* border: 1px solid rebeccapurple; */
+    }
+    .leftSide__addBanner img{
+        object-fit: cover; 
+        width: 100%;
+     }
+}
+/* @media only screen and (max-width: 970px){
+    .leftSide__addBanner img{
+        object-fit: cover; 
+        width: 400px;
+     }
+} */
+
+@media only screen and (max-width: 850px)
+{
+    .cartContainer{
+        /* width: 100%; */
+        /* padding: 20px; */
+        /* background-color: white; */
+        
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+        height:100%;
+        padding:15px 10px;
+        /* box-shadow: 2px 2px 6px grey; */
+        /* border: 1px solid rebeccapurple; */
+    }
+
+    .cartContainer__leftSide{
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin: 20px 0;
+
+        /* flex: 1; */
+       
+        box-shadow: 0 0 5px grey;
+    }
+    
+    .cartContainer__rightSide{
+        margin: 10px 0px;
+        height: 100%;
+        width: 100%;
+    }
+}

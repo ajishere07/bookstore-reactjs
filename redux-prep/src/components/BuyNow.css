@@ -1,0 +1,149 @@
+.buyNowContainer{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    margin: 40px 100px;
+    /* border: 1px solid rebeccapurple; */
+    padding: 50px;
+}
+.buyNowContainer__bookContainer{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+    background-color: white;
+}
+.buyNowContainer__bookContainer img{
+    width: 440px;
+    height: 470px;
+}
+.bookData__bookData{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.buyNowContainer__buttons{
+    /* position: absolute; */
+    /* right: 40px; */
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    /* width: 10%; */
+    height: 100%;
+}
+.buttons{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    height: 30px;
+    font-size: .7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: #012443;
+    border:2px solid #012443;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    height: 30px;
+    font-size: .7rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+@media only screen and (max-width: 1100px){
+    .buyNowContainer{
+        display: flex;
+        flex-direction: column;
+        
+        height: 100%;
+        margin: 10px 30px;
+        /* border: 1px solid rebeccapurple; */
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .buyNowContainer{
+        display: flex;
+        flex-direction: column;
+        
+        height: 100%;
+        margin: 10px 30px;
+        /* border: 1px solid rebeccapurple; */
+        padding: 20px;
+    }
+    .buyNowContainer__bookContainer img{
+        width: 240px;
+        height: 270px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .buyNowContainer{
+        display: flex;
+        flex-direction: column;
+        
+        height: 100%;
+        margin: 10px 30px;
+        /* border: 1px solid rebeccapurple; */
+        padding: 20px;
+    }
+    .buyNowContainer__bookContainer img{
+        width: 210px;
+        height: 240px;
+    }
+    .bookData__bookData h1{
+       font-size: 1.4rem;
+    }
+
+}
+
+@media only screen and (max-width: 455px){
+    .buyNowContainer{
+        display: flex;
+        flex-direction: column;
+        
+        height: 100%;
+        margin: 3px 2px;
+        /* border: 1px solid rebeccapurple; */
+        padding: 20px;
+    }
+    .buyNowContainer__bookContainer img{
+        width: 150px;
+        height: 180px;
+    }
+    .bookData__bookData {
+       font-size: .7rem;
+    }
+    .bookData__bookData h1{
+       font-size: .9rem;
+    }
+}
+@media only screen and (max-width: 290px){
+    .buyNowContainer{
+        display: flex;
+        flex-direction: column;
+        
+        height: 100%;
+        margin: 3px 2px;
+        /* border: 1px solid rebeccapurple; */
+        padding: 20px;
+    }
+    .buyNowContainer__bookContainer img{
+        width: 120px;
+        height: 150px;
+    }
+    .bookData__bookData {
+       font-size: .7rem;
+    }
+    .bookData__bookData h1{
+       font-size: .9rem;
+    }
+}
