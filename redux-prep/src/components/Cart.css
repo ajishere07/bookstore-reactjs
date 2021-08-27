@@ -5,7 +5,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    height:100vh;
+    height:100%;
     padding: 40px 100px;
     /* box-shadow: 2px 2px 6px grey; */
     /* border: 1px solid rebeccapurple; */
