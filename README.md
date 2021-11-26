@@ -1,3 +1,9 @@
+# ScreenShots![Bookify - Read A](https://user-images.githubusercontent.com/73534589/143612625-a41beb39-ad4e-4a21-8bf6-6e34d21fa31f.png)![Bookify - Read A (2)](https://user-images.githubusercontent.com/73534589/143612813-131b0a50-4642-484f-8a32-0b30dd3b7110.png)
+![Bookify - Read A (1)](https://user-images.githubusercontent.com/73534589/143612950-a76b07ea-a735-4b41-b523-8fc64555d193.png)
+
+
+
+
 # Bookify
 
 Bookify is an online book store where you'll get books on technology like React,Typescript,SQL,Swift etc.
